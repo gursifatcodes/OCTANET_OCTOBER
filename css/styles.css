@@ -1,0 +1,120 @@
+.area
+{
+width:100%;
+overflow:hidden;
+}
+body {
+  color:#090808;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+h1{
+  font-weight: 500;
+}
+h1{
+  font-size: 90px;
+}
+
+p {
+  margin-bottom: 30px;
+}
+p:last-child{
+  margin-bottom: 0px;
+}
+a {
+  color: #090808;
+}
+a:focus {
+  outline: 0;
+  box-shadow: none;
+}
+img{
+  max-width: 100%;
+}
+ul {
+  padding: 0;
+}
+.btn {
+  font-size: 17px;
+  line-height: 17px;
+  padding: 16px 40px;
+  color: #fff;
+  border: 1px solid #ffb607;
+  border-radius: 4px;
+  transition: all ease .3s;
+  background: #ffb607;
+  text-transform: uppercase;
+}
+.btn:hover{
+  color: #ffb607; 
+  background:transparent;
+  border-color: #ffb607;
+  transition: all ease .3s;
+}
+.btn-black {
+  background: #070201;
+  border-color: #070201;
+}
+.btn-black:hover{
+  color: #070201; 
+  background:transparent;
+  border-color: #070201;
+}
+
+
+.container {
+  max-width: 1260px;
+}
+header {
+  padding: 30px 0;
+  z-index: 1;
+  position: absolute;
+  width: 100%;
+}
+header .navbar .nav li{
+  margin:0 20px;
+}
+header .navbar .nav li:last-child{
+  margin-right: 0;
+}
+header .navbar .nav li a{
+  font-size: 17px;
+  line-height: 17px;
+  color: #090808;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+header .navbar .nav li a.tel {
+  color: #ffb607;
+}
+header .navbar .nav li a:hover, header .navbar .nav li a.active,  header .navbar .nav li a.show{
+    border-bottom: 3px solid #ffb607;
+    padding-bottom: 5px;
+}
+.carousel-control-next, .carousel-control-prev, .carousel-control-next:focus, .carousel-control-next:hover, .carousel-control-prev:focus, .carousel-control-prev:hover{
+  opacity: 1;
+  width: auto;
+}
+.carousel-control-next-icon, .carousel-control-prev-icon {
+  height: 105px;
+  width: 49px;
+}
+.carousel-control-prev-icon {
+  background-image: url("../images/arrow-left.png");
+}
+.carousel-control-next-icon {
+  background-image: url("../images/arrow-right.png");
+}
+.carousel-caption {
+  color: #090808;
+  top: 100px;
+  bottom: 0;
+}
+.carousel-caption .btn {
+  position: absolute;
+  bottom: 50px;
+  margin-left: -86px;
+}
+
